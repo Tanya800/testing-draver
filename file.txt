@@ -1,0 +1,5 @@
+Команда для сборки библеотеки, подлючаемой в python
+gcc -shared -o lib.so -fPIC lib.c
+
+Запуск программы 
+python Tests.py
